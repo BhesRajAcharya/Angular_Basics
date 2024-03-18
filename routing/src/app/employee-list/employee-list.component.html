@@ -1,0 +1,9 @@
+<p>employee-list works!</p>
+
+<ul class="list-group">
+    <li  (click)="getdata(emp)"   class="list-group-item bg-dark text-white" *ngFor="let emp of MyEmployees">
+
+        {{emp.id}}-{{emp.name}}
+    </li>
+
+</ul>

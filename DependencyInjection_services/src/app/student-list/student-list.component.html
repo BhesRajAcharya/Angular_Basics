@@ -1,0 +1,17 @@
+<p>student-list works!</p>
+<table boarder="1px black solid">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>City</th>
+        <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let std of students">
+       <td>{{std.name}}</td>
+       <td>{{std.city}}</td>
+       <td>{{std.age}}</td>
+      </tr>
+    </tbody>
+    </table>
